@@ -1,7 +1,7 @@
 {
-  "name": "package-name",
+  "name": "logic-branch-helpers",
   "version": "0.1.0",
-  "description": "description",
+  "description": "Helpers for logical branches",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -16,15 +16,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/user/repo.git"
+    "url": "git+https://github.com/spenserblack/logic-branch-helpers-ts.git"
   },
-  "keywords": [],
-  "author": "name <email@example.com>",
+  "keywords": [
+    "logic",
+    "branching"
+  ],
+  "author": "Spenser Black <spenserblack01@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/user/repo/issues"
+    "url": "https://github.com/spenserblack/logic-branch-helpers-ts/issues"
   },
-  "homepage": "https://github.com/user/repo#readme",
+  "homepage": "https://github.com/spenserblack/logic-branch-helpers-ts#readme",
   "devDependencies": {
     "@types/jest": "^27.4.1",
     "@typescript-eslint/eslint-plugin": "^5.13.0",

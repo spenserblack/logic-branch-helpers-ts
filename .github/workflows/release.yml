@@ -5,17 +5,16 @@ on:
     tags: [ 'v*.*.*' ]
 
 jobs:
-  # TODO Uncomment if you push tags with release notes
-  # gh-release:
-  #   name: GitHub Release
-  #   runs-on: ubuntu-latest
-  #   permissions:
-  #     contents: write
-  #   steps:
-  #     - uses: actions/checkout@v3
-  #       with:
-  #         ref: ${{ github.ref }}
-  #     - uses: spenserblack/actions-tag-to-release@v0.1
+  gh-release:
+    name: GitHub Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.ref }}
+      - uses: spenserblack/actions-tag-to-release@v0.1
   docs:
     name: Publish Docs
     runs-on: ubuntu-latest
