@@ -5,6 +5,8 @@
 
 TypeScript helpers for logical branches.
 
+## [Documentation](https://spenserblack.github.io/logic-branch-helpers-ts/)
+
 ## Example
 
 ```typescript
