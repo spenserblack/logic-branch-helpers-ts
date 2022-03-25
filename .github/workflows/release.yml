@@ -58,7 +58,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           registry-url: 'https://npm.pkg.github.com'
-          scope: imretro
       - name: Publish to GitHub Registry
         run: npm publish
         env:
