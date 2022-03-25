@@ -1,5 +1,6 @@
 # logic-branch-helpers
 
+[![npm](https://img.shields.io/npm/v/logic-branch-helpers)](https://www.npmjs.com/package/logic-branch-helpers)
 [![CI](https://github.com/spenserblack/logic-branch-helpers-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/spenserblack/logic-branch-helpers-ts/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/spenserblack/logic-branch-helpers-ts/branch/main/graph/badge.svg?token=DwZhdMa9GO)](https://codecov.io/gh/spenserblack/logic-branch-helpers-ts)
 
